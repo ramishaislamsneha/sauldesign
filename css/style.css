@@ -1,0 +1,223 @@
+/* Common Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+    }
+  
+.container{
+ width: 1320px;
+ margin: 0 auto;
+ box-sizing: border-box;
+ 
+}
+
+
+ol,ul{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Common Css End */
+
+/* Header Part Start */
+#headerPart{
+  padding: 50px 0;
+border-bottom: 2px solid #eeeeee15;
+background: #222831;
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu ul{
+  display: flex;
+  gap: 48px;
+}
+
+.menu ul a li{
+  font-weight: 400;
+  font-size: 18px;
+  color: #eeeeee;
+}
+.menu ul li:hover{
+  border-bottom: 2px solid white;
+}
+/* Header Part End */
+/* banner part start here */
+#bannerPart{
+    padding-top: 163px;
+    padding-bottom: 73px;
+    background: #222831;
+    
+}
+.bannerContent{
+  display: flex;
+  gap:250px;
+  position: relative;
+}
+.bannerContentLeft{
+  margin-top: 43px;
+  margin-left: 60px;
+}
+.bannerContent .icon{
+  position: absolute;
+  top: 105px;
+  left: -30px;
+
+}
+
+.bannerContentLeft h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 106px;
+  color: #eeeeee;
+  width: 589px;
+  margin-bottom: 48px;
+}
+
+.bannerContentLeft h1 span{
+  color: #00adb5;
+
+}
+.bannerBtn{
+  display: flex;
+  gap:24px;
+}
+.bannerBtn button{
+  background: #00adb5;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 24px;
+  
+}
+.bannerBtn button a{
+  font-weight: 700;
+  font-size: 18px;
+  color: #eeeeee;
+  text-shadow: 0px 4px 4px #000000;
+}
+
+.bannerBtn button .icon2{
+  color:#eeeeee;
+}
+.bannerBtn button:hover{
+  background-color: rgba(57, 62, 70, 0.75);
+  transition: all linear .3s;
+}
+
+/* banner part start here */
+/* about part start here */
+#aboutPart {
+  padding-top: 230px;
+  padding-bottom: 69px;
+  background: #222831;
+  }
+.aboutContent{
+  display: flex;
+  margin: 0 auto;
+  gap: 380px;
+  text-align: center;
+  border-bottom: 2px solid #eeeeee;
+
+ 
+  }
+
+.aboutContentLeft{
+  font-weight: 400;
+  font-size: 18px;
+  color: #eeeeee;
+  position: relative;
+}
+
+.aboutContentLeft .music{
+  position: absolute;
+  top: -135px;
+  left: 10px;
+}
+.aboutContentLeft .light{
+  position: absolute;
+  top: -15px;
+  left: 380px;
+
+}
+.aboutContentLeft .arrow{
+  position: absolute;
+  top: 350px;
+  left: 170px;
+
+}
+
+
+.aboutContentLeft h1{
+  font-weight: 700;
+  font-size: 64px;
+  color: #eeeeee;
+}
+.aboutContentLeft h1 span{
+color: #00adb5;
+}
+.aboutContentLeft p{
+  font-weight: 400;
+  font-size: 18px;
+  color: #eeeeee;
+  width: 389px;
+}
+.blankdiv{
+  padding: 66px 0;
+  background: #222831;
+  width: 100%;
+  
+}
+/* about part end here */
+#workPart{
+  padding: 269px 0;
+  background-image: url(../images/Projects\ Page.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container h2{
+  font-weight: 700;
+  font-size: 64px;
+  color: #eeeeee;
+}
+ .container h2 span{
+color: #00adb5;}
+
+.workBtn{
+  display: flex;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.one{
+  padding: 10px 32px;
+  background: #00adb5;
+  border-radius: 24px;
+  font-weight: 700;
+  color: #eeeeee;
+  border: none;
+  cursor: pointer;
+}
+.one:hover{
+  background-color: rgba(57, 62, 70, 0.5);
+  transition: all linear .3s;
+}
+
+.cardone{
+  padding: 61px 52px;
+    background-color: rgba(57, 62, 70, 0.5);
+border-radius: 16px;
+   
+}
+.workCard{
+  display: flex;
+  gap: 48px;
+}
