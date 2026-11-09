@@ -221,3 +221,34 @@ border-radius: 16px;
   display: flex;
   gap: 48px;
 }
+/* contact part start here */
+#contactPart{
+  padding: 250px 0;
+  background: #222831;
+
+}
+.contactLeft,
+.contactRight{
+  width: 50%;
+}
+
+.contactLeft h2{
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #eeeeee;
+}
+.contactLeft h2 span{
+  color: #00adb5;
+}
+.contactLeft img{
+  margin-left: 200px;
+}
+.contactLeft .vector{
+  position: absolute;
+  left: 410px;
+}
+
+
+
+/* contact part start here */
